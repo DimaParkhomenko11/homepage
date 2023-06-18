@@ -138,7 +138,9 @@ body {
 }
 
 
+
 /*Intro and skills styles*/
+
 .intro {
     display: flex;
     justify-content: start;
@@ -177,7 +179,9 @@ body {
 }
 
 
+
 /*Experience and additional info styles*/
+
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
