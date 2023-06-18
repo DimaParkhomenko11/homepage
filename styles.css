@@ -12,8 +12,8 @@ body {
   background-color: #e5e5e5;
 
   --primary-text-color: #181820;
-  --secondary-text-color:  color: #161d2a;
-  --durability-text-color:  color: #161d2a;
+  --secondary-text-color: #161d2a;
+  --durability-text-color: #161d2a;
   --icon-color: #6a737d;
   --border-color: #304a4a5c;
   --text-decoration-color: #6d9bf5;
@@ -136,6 +136,13 @@ body {
   border-color: var(--text-decoration-color);
 }
 
+.rotate-image {
+  transition: transform 0.5s;
+}
+.rotate-image:hover {
+  transform: rotate(360deg);
+}
+
 /*Intro and skills styles*/
 
 .intro {
@@ -176,12 +183,12 @@ body {
 }
 
 /* Skills */
-.skills-title{
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color: #161d2a;
-    margin-bottom: 8px;
+.skills-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin-bottom: 8px;
 }
 
 .skills-list {
@@ -251,18 +258,18 @@ body {
 }
 
 .experiences-list {
-    margin: 0;
-    padding: 0 0 0 12px;
+  margin: 0;
+  padding: 0 0 0 12px;
 }
-  
+
 .experiences-list-item {
-    color: #6d9bf5;
+  color: #6d9bf5;
 }
 .experiences-list-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #161d2a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
 }
 
 .additional-info {
